@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite verbose="0" name="Failed suite [Suite1]">
+  <parameter name="password" value="123456789"/>
+  <parameter name="AUTOMATE_KEY" value="VHUY3Ttk2yQ39MKwkyQF"/>
+  <parameter name="USERNAME" value="vikram158"/>
+  <parameter name="userId" value="asian.recipes.user@foodniche.me"/>
+  <parameter name="url" value="https://foodniche.me/"/>
+  <test name="Test(failed)">
+    <parameter name="password" value="123456789"/>
+    <parameter name="AUTOMATE_KEY" value="VHUY3Ttk2yQ39MKwkyQF"/>
+    <parameter name="USERNAME" value="vikram158"/>
+    <parameter name="userId" value="asian.recipes.user@foodniche.me"/>
+    <parameter name="url" value="https://foodniche.me/"/>
+    <classes>
+      <class name="foodniche_project.Signupuser">
+        <methods>
+          <include name="SignUpForm" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- foodniche_project.Signupuser -->
+      <class name="foodniche_project.Signin_and_forgot_password">
+        <methods>
+          <include name="Facebook_Signin"/>
+          <include name="Restoring_password"/>
+          <include name="Logout" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- foodniche_project.Signin_and_forgot_password -->
+      <class name="foodniche_project.Contents_by_individual_user">
+        <methods>
+          <include name="Deleting_Tutorials_Contents_by_Individual_User"/>
+          <include name="Editing_Pictures_by_Individual_User"/>
+          <include name="Posting_Recipe_by_Individual_User"/>
+          <include name="Deleting_Video_Contents_by_Individual_User"/>
+          <include name="Editing_Video_by_Individual_User"/>
+          <include name="Posting_Pictures_Contents_by_Individual_User" invocation-numbers="0"/>
+          <include name="Posting_Tutorials_by_Individual_User"/>
+          <include name="Editing_Recipe_by_Individual_User"/>
+          <include name="Editing_Tutorials_by_Individual_User"/>
+          <include name="Deleting_Pictures_Contents_by_Individual_User"/>
+          <include name="Deleting_Recipe_Contents_by_Individual_User"/>
+          <include name="Posting_Video_By_Individual_User"/>
+        </methods>
+      </class> <!-- foodniche_project.Contents_by_individual_user -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite1] -->

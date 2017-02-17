@@ -1,0 +1,307 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title>TestNG:  Unit Test</title>
+<style type="text/css">
+table caption,table.info_table,table.result,table.passed,table.failed {margin-bottom:10px;border:1px solid #000099;border-collapse:collapse;empty-cells:show;}
+table.info_table td,table.info_table th,table.result td,table.result th,table.passed td,table.passed th,table.failed td,table.failed th {
+border:1px solid #000099;padding:.25em .5em .25em .5em
+}
+table.result th {vertical-align:bottom}
+tr.param th {padding-left:1em;padding-right:1em}
+tr.param td {padding-left:.5em;padding-right:2em}
+td.numi,th.numi,td.numi_attn {
+text-align:right
+}
+tr.total td {font-weight:bold}
+table caption {
+text-align:center;font-weight:bold;
+}
+table.passed tr.stripe td,table tr.passedodd td {background-color: #00AA00;}
+table.passed td,table tr.passedeven td {background-color: #33FF33;}
+table.passed tr.stripe td,table tr.skippedodd td {background-color: #cccccc;}
+table.passed td,table tr.skippedodd td {background-color: #dddddd;}
+table.failed tr.stripe td,table tr.failedodd td,table.result td.numi_attn {background-color: #FF3333;}
+table.failed td,table tr.failedeven td,table.result tr.stripe td.numi_attn {background-color: #DD0000;}
+tr.stripe td,tr.stripe th {background-color: #E6EBF9;}
+p.totop {font-size:85%;text-align:center;border-bottom:2px black solid}
+div.shootout {padding:2em;border:3px #4854A8 solid}
+</style>
+</head>
+<body>
+<table cellspacing="0" cellpadding="0" class="result">
+<tr><th>Test</th><th class="numi">Methods<br/>Passed</th><th class="numi">Scenarios<br/>Passed</th><th class="numi"># skipped</th><th class="numi"># failed</th><th class="numi">Total<br/>Time</th><th class="numi">Included<br/>Groups</th><th class="numi">Excluded<br/>Groups</th></tr>
+<tr><th colspan="7">Suite1</th></tr>
+<tr><td style="text-align:left;padding-right:2em">Test</td><td class="numi">0</td><td class="numi">0</td><td class="numi">0</td><td class="numi_attn">16</td><td class="numi">37.0 seconds</td><td class="numi"></td><td class="numi"></td></tr>
+<tr><th colspan="7">Suite2</th></tr>
+<tr><td style="text-align:left;padding-right:2em">Test</td><td class="numi">0</td><td class="numi">0</td><td class="numi">0</td><td class="numi_attn">1</td><td class="numi">1.8 seconds</td><td class="numi"></td><td class="numi"></td></tr>
+<tr class="total"><td>Total</td>
+<td class="numi">0</td><td class="numi">0</td><td class="numi">0</td><td class="numi_attn">17</td><td class="numi">38.9 seconds</td><td colspan="2">&nbsp;</td></tr>
+</table>
+<table cellspacing="0" cellpadding="0" class="passed" id="summary">
+<tr><th>Class</th><th>Method</th><th># of<br/>Scenarios</th><th>Start</th><th>Time<br/>(ms)</th></tr>
+<tr><th colspan="4">Suite1</th></tr>
+<tr><th colspan="4">Test &#8212; failed</th></tr>
+<tr class="failedodd"><td rowspan="3">foodniche_project.Signin_and_forgot_password</td><td><a href="#m1"><b>Logout</b>  </a></td><td class="numi">1</td><td>1487247296457</td><td class="numi">21924</td></tr><tr class="failedodd"><td><a href="#m2"><b>Facebook_Signin</b>  </a></td><td class="numi">1</td><td>1487247318409</td><td class="numi">52</td></tr><tr class="failedodd"><td><a href="#m3"><b>Restoring_password</b>  </a></td><td class="numi">1</td><td>1487247318462</td><td class="numi">5000</td></tr>
+<tr class="failedeven"><td rowspan="12">foodniche_project.Contents_by_individual_user</td><td><a href="#m4"><b>Posting_Pictures_Contents_by_Individual_User</b>  </a></td><td class="numi">1</td><td>1487247323464</td><td class="numi">2199</td></tr><tr class="failedeven"><td><a href="#m5"><b>Editing_Pictures_by_Individual_User</b>  </a></td><td class="numi">1</td><td>1487247325665</td><td class="numi">1</td></tr><tr class="failedeven"><td><a href="#m6"><b>Deleting_Pictures_Contents_by_Individual_User</b>  </a></td><td class="numi">1</td><td>1487247325666</td><td class="numi">0</td></tr><tr class="failedeven"><td><a href="#m7"><b>Posting_Video_By_Individual_User</b>  </a></td><td class="numi">1</td><td>1487247325667</td><td class="numi">2000</td></tr><tr class="failedeven"><td><a href="#m8"><b>Editing_Video_by_Individual_User</b>  </a></td><td class="numi">1</td><td>1487247327668</td><td class="numi">1</td></tr><tr class="failedeven"><td><a href="#m9"><b>Deleting_Video_Contents_by_Individual_User</b>  </a></td><td class="numi">1</td><td>1487247327670</td><td class="numi">1</td></tr><tr class="failedeven"><td><a href="#m10"><b>Posting_Recipe_by_Individual_User</b>  </a></td><td class="numi">1</td><td>1487247327672</td><td class="numi">2001</td></tr><tr class="failedeven"><td><a href="#m11"><b>Editing_Recipe_by_Individual_User</b>  </a></td><td class="numi">1</td><td>1487247329675</td><td class="numi">0</td></tr><tr class="failedeven"><td><a href="#m12"><b>Deleting_Recipe_Contents_by_Individual_User</b>  </a></td><td class="numi">1</td><td>1487247329676</td><td class="numi">0</td></tr><tr class="failedeven"><td><a href="#m13"><b>Posting_Tutorials_by_Individual_User</b>  </a></td><td class="numi">1</td><td>1487247329677</td><td class="numi">2002</td></tr><tr class="failedeven"><td><a href="#m14"><b>Editing_Tutorials_by_Individual_User</b>  </a></td><td class="numi">1</td><td>1487247331680</td><td class="numi">1</td></tr><tr class="failedeven"><td><a href="#m15"><b>Deleting_Tutorials_Contents_by_Individual_User</b>  </a></td><td class="numi">1</td><td>1487247331681</td><td class="numi">1</td></tr>
+<tr class="failedodd"><td rowspan="1">foodniche_project.Signupuser</td><td><a href="#m16"><b>SignUpForm</b>  </a></td><td class="numi">1</td><td>1487247331683</td><td class="numi">1733</td></tr>
+<tr><th colspan="4">Suite2</th></tr>
+<tr><th colspan="4">Test &#8212; failed</th></tr>
+<tr class="failedodd"><td rowspan="1">foodniche_project.Signup_business_user</td><td><a href="#m17"><b>SignUpForm</b>  </a></td><td class="numi">1</td><td>1487247333581</td><td class="numi">1765</td></tr>
+</table>
+<h1>Test</h1>
+<h2 id="m1">foodniche_project.Signin_and_forgot_password:Restoring_password</h2>
+<div style="padding-left:3em">
+<p>null</p>
+foodniche_project.Signin_and_forgot_password.Restoring_password(Signin_and_forgot_password.java:127)
+<br/>28 lines not shown
+</div>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m2">foodniche_project.Contents_by_individual_user:Editing_Pictures_by_Individual_User</h2>
+<div style="padding-left:3em">
+<p>null</p>
+foodniche_project.Contents_by_individual_user.Editing_Pictures_by_Individual_User(Contents_by_individual_user.java:97)
+<br/>28 lines not shown
+</div>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m3">foodniche_project.Contents_by_individual_user:Posting_Tutorials_by_Individual_User</h2>
+<div style="padding-left:3em">
+<p>null</p>
+foodniche_project.Contents_by_individual_user.Posting_Tutorials_by_Individual_User(Contents_by_individual_user.java:269)
+<br/>28 lines not shown
+</div>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m4">foodniche_project.Signin_and_forgot_password:Logout</h2>
+<table cellspacing="0" cellpadding="0" class="result">
+<tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th><th>Parameter #4</th><th>Parameter #5</th></tr>
+<tr class="param stripe"><td>asian.recipes.user@foodniche.me</td>
+<td>123456789</td>
+<td>https://foodniche.me/</td>
+<td>vikram158</td>
+<td>VHUY3Ttk2yQ39MKwkyQF</td>
+</tr>
+<tr><td style="padding-left:3em" colspan="5">
+<p>Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure.
+Build info: version: &apos;2.53.0&apos;, revision: &apos;35ae25b1534ae328c771e0856c93e187490ca824&apos;, time: &apos;2016-03-15 10:43:46&apos;
+System info: host: &apos;SQE&apos;, ip: &apos;192.168.56.1&apos;, os.name: &apos;Windows 8&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.2&apos;, java.version: &apos;1.8.0_40&apos;
+Driver info: driver.version: RemoteWebDriver</p>
+org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:665)
+<br/>at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:249)
+<br/>at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:131)
+<br/>at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:158)
+<br/>at foodniche_project.Signin_and_forgot_password.Logout(Signin_and_forgot_password.java:44)
+<br/>28 lines not shown
+<p>Caused by Connect to hub-cloud.browserstack.com:443 [hub-cloud.browserstack.com/5.255.93.7] failed: Connection timed out: connect</p>
+org.apache.http.impl.conn.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:151)
+<br/>at org.apache.http.impl.conn.PoolingHttpClientConnectionManager.connect(PoolingHttpClientConnectionManager.java:353)
+<br/>at org.apache.http.impl.execchain.MainClientExec.establishRoute(MainClientExec.java:380)
+<br/>at org.apache.http.impl.execchain.MainClientExec.execute(MainClientExec.java:236)
+<br/>at org.apache.http.impl.execchain.ProtocolExec.execute(ProtocolExec.java:184)
+<br/>at org.apache.http.impl.execchain.RetryExec.execute(RetryExec.java:88)
+<br/>at org.apache.http.impl.execchain.RedirectExec.execute(RedirectExec.java:110)
+<br/>at org.apache.http.impl.client.InternalHttpClient.doExecute(InternalHttpClient.java:184)
+<br/>at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:71)
+<br/>at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:55)
+<br/>at org.openqa.selenium.remote.internal.ApacheHttpClient.fallBackExecute(ApacheHttpClient.java:144)
+<br/>at org.openqa.selenium.remote.internal.ApacheHttpClient.execute(ApacheHttpClient.java:90)
+<br/>at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:142)
+<br/>at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:644)
+<br/>at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:249)
+<br/>at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:131)
+<br/>at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:158)
+<br/>at foodniche_project.Signin_and_forgot_password.Logout(Signin_and_forgot_password.java:44)
+<br/>28 lines not shown
+<p>Caused by Connection timed out: connect</p>
+java.net.DualStackPlainSocketImpl.waitForConnect(Native Method)
+<br/>at java.net.DualStackPlainSocketImpl.socketConnect(DualStackPlainSocketImpl.java:85)
+<br/>at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:345)
+<br/>at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+<br/>at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+<br/>at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:172)
+<br/>at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+<br/>at java.net.Socket.connect(Socket.java:589)
+<br/>at org.apache.http.conn.ssl.SSLConnectionSocketFactory.connectSocket(SSLConnectionSocketFactory.java:337)
+<br/>at org.apache.http.impl.conn.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:134)
+<br/>at org.apache.http.impl.conn.PoolingHttpClientConnectionManager.connect(PoolingHttpClientConnectionManager.java:353)
+<br/>at org.apache.http.impl.execchain.MainClientExec.establishRoute(MainClientExec.java:380)
+<br/>at org.apache.http.impl.execchain.MainClientExec.execute(MainClientExec.java:236)
+<br/>at org.apache.http.impl.execchain.ProtocolExec.execute(ProtocolExec.java:184)
+<br/>at org.apache.http.impl.execchain.RetryExec.execute(RetryExec.java:88)
+<br/>at org.apache.http.impl.execchain.RedirectExec.execute(RedirectExec.java:110)
+<br/>at org.apache.http.impl.client.InternalHttpClient.doExecute(InternalHttpClient.java:184)
+<br/>at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:71)
+<br/>at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:55)
+<br/>at org.openqa.selenium.remote.internal.ApacheHttpClient.fallBackExecute(ApacheHttpClient.java:144)
+<br/>at org.openqa.selenium.remote.internal.ApacheHttpClient.execute(ApacheHttpClient.java:90)
+<br/>at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:142)
+<br/>at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:644)
+<br/>at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:249)
+<br/>at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:131)
+<br/>at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:158)
+<br/>at foodniche_project.Signin_and_forgot_password.Logout(Signin_and_forgot_password.java:44)
+<br/>28 lines not shown
+</td></tr>
+</table>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m5">foodniche_project.Contents_by_individual_user:Editing_Video_by_Individual_User</h2>
+<div style="padding-left:3em">
+<p>null</p>
+foodniche_project.Contents_by_individual_user.Editing_Video_by_Individual_User(Contents_by_individual_user.java:161)
+<br/>28 lines not shown
+</div>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m6">foodniche_project.Signin_and_forgot_password:Facebook_Signin</h2>
+<div style="padding-left:3em">
+<p>null</p>
+foodniche_project.Signin_and_forgot_password.Facebook_Signin(Signin_and_forgot_password.java:99)
+<br/>28 lines not shown
+</div>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m7">foodniche_project.Contents_by_individual_user:Posting_Pictures_Contents_by_Individual_User</h2>
+<table cellspacing="0" cellpadding="0" class="result">
+<tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th><th>Parameter #4</th><th>Parameter #5</th></tr>
+<tr class="param stripe"><td>asian.recipes.user@foodniche.me</td>
+<td>123456789</td>
+<td>https://foodniche.me/</td>
+<td>vikram158</td>
+<td>VHUY3Ttk2yQ39MKwkyQF</td>
+</tr>
+<tr><td style="padding-left:3em" colspan="5">
+<p>Automate testing time expired. (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 2.18 seconds
+Build info: version: &apos;2.53.0&apos;, revision: &apos;35ae25b1534ae328c771e0856c93e187490ca824&apos;, time: &apos;2016-03-15 10:43:46&apos;
+System info: host: &apos;SQE&apos;, ip: &apos;192.168.56.1&apos;, os.name: &apos;Windows 8&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.2&apos;, java.version: &apos;1.8.0_40&apos;
+Driver info: org.openqa.selenium.remote.RemoteWebDriver</p>
+sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+<br/>at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+<br/>at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+<br/>at java.lang.reflect.Constructor.newInstance(Constructor.java:422)
+<br/>at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)
+<br/>at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)
+<br/>at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:678)
+<br/>at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:249)
+<br/>at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:131)
+<br/>at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:158)
+<br/>at foodniche_project.Contents_by_individual_user.Posting_Pictures_Contents_by_Individual_User(Contents_by_individual_user.java:47)
+<br/>28 lines not shown
+</td></tr>
+</table>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m8">foodniche_project.Contents_by_individual_user:Deleting_Tutorials_Contents_by_Individual_User</h2>
+<div style="padding-left:3em">
+<p>null</p>
+foodniche_project.Contents_by_individual_user.Deleting_Tutorials_Contents_by_Individual_User(Contents_by_individual_user.java:328)
+<br/>28 lines not shown
+</div>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m9">foodniche_project.Contents_by_individual_user:Deleting_Video_Contents_by_Individual_User</h2>
+<div style="padding-left:3em">
+<p>null</p>
+foodniche_project.Contents_by_individual_user.Deleting_Video_Contents_by_Individual_User(Contents_by_individual_user.java:183)
+<br/>28 lines not shown
+</div>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m10">foodniche_project.Contents_by_individual_user:Deleting_Pictures_Contents_by_Individual_User</h2>
+<div style="padding-left:3em">
+<p>null</p>
+foodniche_project.Contents_by_individual_user.Deleting_Pictures_Contents_by_Individual_User(Contents_by_individual_user.java:119)
+<br/>28 lines not shown
+</div>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m11">foodniche_project.Contents_by_individual_user:Editing_Tutorials_by_Individual_User</h2>
+<div style="padding-left:3em">
+<p>null</p>
+foodniche_project.Contents_by_individual_user.Editing_Tutorials_by_Individual_User(Contents_by_individual_user.java:305)
+<br/>28 lines not shown
+</div>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m12">foodniche_project.Contents_by_individual_user:Posting_Video_By_Individual_User</h2>
+<div style="padding-left:3em">
+<p>null</p>
+foodniche_project.Contents_by_individual_user.Posting_Video_By_Individual_User(Contents_by_individual_user.java:134)
+<br/>28 lines not shown
+</div>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m13">foodniche_project.Contents_by_individual_user:Deleting_Recipe_Contents_by_Individual_User</h2>
+<div style="padding-left:3em">
+<p>null</p>
+foodniche_project.Contents_by_individual_user.Deleting_Recipe_Contents_by_Individual_User(Contents_by_individual_user.java:259)
+<br/>28 lines not shown
+</div>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m14">foodniche_project.Contents_by_individual_user:Posting_Recipe_by_Individual_User</h2>
+<div style="padding-left:3em">
+<p>null</p>
+foodniche_project.Contents_by_individual_user.Posting_Recipe_by_Individual_User(Contents_by_individual_user.java:191)
+<br/>28 lines not shown
+</div>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m15">foodniche_project.Signupuser:SignUpForm</h2>
+<table cellspacing="0" cellpadding="0" class="result">
+<tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th><th>Parameter #4</th><th>Parameter #5</th></tr>
+<tr class="param stripe"><td>asian.recipes.user@foodniche.me</td>
+<td>123456789</td>
+<td>https://foodniche.me/</td>
+<td>vikram158</td>
+<td>VHUY3Ttk2yQ39MKwkyQF</td>
+</tr>
+<tr><td style="padding-left:3em" colspan="5">
+<p>Automate testing time expired. (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 1.70 seconds
+Build info: version: &apos;2.53.0&apos;, revision: &apos;35ae25b1534ae328c771e0856c93e187490ca824&apos;, time: &apos;2016-03-15 10:43:46&apos;
+System info: host: &apos;SQE&apos;, ip: &apos;192.168.56.1&apos;, os.name: &apos;Windows 8&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.2&apos;, java.version: &apos;1.8.0_40&apos;
+Driver info: org.openqa.selenium.remote.RemoteWebDriver</p>
+sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+<br/>at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+<br/>at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+<br/>at java.lang.reflect.Constructor.newInstance(Constructor.java:422)
+<br/>at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)
+<br/>at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)
+<br/>at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:678)
+<br/>at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:249)
+<br/>at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:131)
+<br/>at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:158)
+<br/>at foodniche_project.Signupuser.SignUpForm(Signupuser.java:45)
+<br/>28 lines not shown
+</td></tr>
+</table>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m16">foodniche_project.Contents_by_individual_user:Editing_Recipe_by_Individual_User</h2>
+<div style="padding-left:3em">
+<p>null</p>
+foodniche_project.Contents_by_individual_user.Editing_Recipe_by_Individual_User(Contents_by_individual_user.java:237)
+<br/>28 lines not shown
+</div>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h1>Test</h1>
+<h2 id="m17">foodniche_project.Signup_business_user:SignUpForm</h2>
+<table cellspacing="0" cellpadding="0" class="result">
+<tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th><th>Parameter #4</th><th>Parameter #5</th></tr>
+<tr class="param stripe"><td>asian.recipes@foodniche.me</td>
+<td>123456789</td>
+<td>https://foodniche.me/</td>
+<td>vikram158</td>
+<td>VHUY3Ttk2yQ39MKwkyQF</td>
+</tr>
+<tr><td style="padding-left:3em" colspan="5">
+<p>Automate testing time expired. (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 1.75 seconds
+Build info: version: &apos;2.53.0&apos;, revision: &apos;35ae25b1534ae328c771e0856c93e187490ca824&apos;, time: &apos;2016-03-15 10:43:46&apos;
+System info: host: &apos;SQE&apos;, ip: &apos;192.168.56.1&apos;, os.name: &apos;Windows 8&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.2&apos;, java.version: &apos;1.8.0_40&apos;
+Driver info: org.openqa.selenium.remote.RemoteWebDriver</p>
+sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+<br/>at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+<br/>at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+<br/>at java.lang.reflect.Constructor.newInstance(Constructor.java:422)
+<br/>at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)
+<br/>at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)
+<br/>at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:678)
+<br/>at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:249)
+<br/>at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:131)
+<br/>at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:158)
+<br/>at foodniche_project.Signup_business_user.SignUpForm(Signup_business_user.java:44)
+<br/>28 lines not shown
+</td></tr>
+</table>
+<p class="totop"><a href="#summary">back to summary</a></p>
+</body></html>
